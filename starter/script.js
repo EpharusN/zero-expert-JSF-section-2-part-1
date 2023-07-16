@@ -117,33 +117,121 @@ job = "teacher";
 
 // console.log(newNdumia);
 
-const age = 15;
-//const isOldEnough = (age) => 18;
-if (age >= 18) {
-  console.log(`Sarah is of age 🎉 `);
-} else {
-  const yearsLeft = 18 - age;
-  console.log(`Sarah is not of age. Wait another ${yearsLeft} years 😢`);
-}
+// const age = 15;
+// //const isOldEnough = (age) => 18;
+// if (age >= 18) {
+//   console.log(`Sarah is of age 🎉 `);
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Sarah is not of age. Wait another ${yearsLeft} years 😢`);
+// }
 
-if (BMIMark > BMIJohn) {
-  console.log("Mark's BMI is higher than John's BMI");
-} else {
-  console.log("John's BMI is higher than mark's BMI");
-}
+// if (BMIMark > BMIJohn) {
+//   console.log("Mark's BMI is higher than John's BMI");
+// } else {
+//   console.log("John's BMI is higher than mark's BMI");
+// }
 
-//type conversion
-const inputYear = 1991;
-console.log(Number(inputYear) + 20);
+// //type conversion
+// const inputYear = 1991;
+// console.log(Number(inputYear) + 20);
 
-//type coercion
-console.log("I am " + 23 + "years old");
-console.log("23");
+// //type coercion
+// console.log("I am " + 23 + "years old");
+// console.log("23");
 
-let n = "1" + 1; //'11'
-n = n - 1; //10
-console.log(n);
+// let n = "1" + 1; //'11'
+// n = n - 1; //10
+// console.log(n);
 
 //note
 //when a number preceeds a string, we get a string
 //when a string preceeds a number, we get a number
+
+//5 falsy values: 0, '', undefined, null, NaN and false
+
+// console.log(Boolean(0)); //false
+// console.log(Boolean("Epharus")); //true
+// console.log(Boolean({})); //true
+// console.log(Boolean("")); //false
+// console.log(Boolean(undefined)); //false
+
+// const money = 0;
+// if (money) {
+//   console.log("Don't spend it all");
+// } else {
+//   console.log("Get a job");
+// }
+
+// let height; //or 0//Height is undefined
+// //let height //
+// if (height) {
+//   console.log("Height is defined");
+// } else {
+//   console.log("Height is UNDEFINED");
+// }
+
+// const age = 18;
+
+// if (age === 18) {
+//   console.log("You are an adult 🎉");
+// }
+// if (age == 18) {
+//   console.log("You are an adulty 😘");
+// }
+
+// const favourite = Number(prompt("whats your favorite number?"));
+// console.log(favourite);
+// console.log(typeof favourite);
+
+// if (favourite === 23) {
+//   console.log("YEAH");
+// } else if (favourite === 7) {
+//   console.log("7 is a number");
+// } else {
+//   console.log("Number is not either 7 or 23");
+// }
+
+//Basic logic operators THE AND, OR 7 NOT OPERATORS
+// const hasDriversLicense = false;
+// const hasGoodVision = true;
+
+// console.log(hasDriversLicense);
+// console.log(hasGoodVision);
+
+// if (hasDriversLicense || hasGoodVision) {
+//   console.log("sarah is a driver🎉");
+// } else {
+//   console.log("someone else should driver 😢");
+// }
+
+//CHALLENGE THREE
+
+// gymnastics teams
+// Dolphins && Koalas
+// compete against each other 3 times
+// winner is the one with the highest average score
+// how do we get average?
+
+// we get average from adding the three score from each team and dividing by 2
+
+//Dolphins = 96 + 108 + 89; //293
+
+// Koalas = 88 + 91 + 110; //289
+
+let scoreDolphins = (97 + 112 + 80) / 3;
+let scoreKoalas = (109 + 95 + 50) / 3;
+
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+  console.log("Dolphins win the trophy");
+} else if (scoreKoalas > scoreDolphins && scoreDolphins >= 100) {
+  console.log("Koalas win the trophy");
+} else if (
+  scoreDolphins === scoreKoalas &&
+  scoreDolphins >= 100 &&
+  scoreKoalas >= 100
+) {
+  console.log("Both win the trophy");
+} else {
+  console.log("No winner 😢");
+}
