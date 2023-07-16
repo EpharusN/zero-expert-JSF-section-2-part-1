@@ -136,5 +136,14 @@ if (BMIMark > BMIJohn) {
 const inputYear = 1991;
 console.log(Number(inputYear) + 20);
 
-//coercion
+//type coercion
 console.log("I am " + 23 + "years old");
+console.log("23");
+
+let n = "1" + 1; //'11'
+n = n - 1; //10
+console.log(n);
+
+//note
+//when a number preceeds a string, we get a string
+//when a string preceeds a number, we get a number
