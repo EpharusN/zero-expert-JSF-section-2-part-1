@@ -131,3 +131,10 @@ if (BMIMark > BMIJohn) {
 } else {
   console.log("John's BMI is higher than mark's BMI");
 }
+
+//type conversion
+const inputYear = 1991;
+console.log(Number(inputYear) + 20);
+
+//coercion
+console.log("I am " + 23 + "years old");
