@@ -219,19 +219,39 @@ job = "teacher";
 
 // Koalas = 88 + 91 + 110; //289
 
-let scoreDolphins = (97 + 112 + 80) / 3;
-let scoreKoalas = (109 + 95 + 50) / 3;
+// let scoreDolphins = (97 + 112 + 80) / 3;
+// let scoreKoalas = (109 + 95 + 50) / 3;
 
-if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
-  console.log("Dolphins win the trophy");
-} else if (scoreKoalas > scoreDolphins && scoreDolphins >= 100) {
-  console.log("Koalas win the trophy");
-} else if (
-  scoreDolphins === scoreKoalas &&
-  scoreDolphins >= 100 &&
-  scoreKoalas >= 100
-) {
-  console.log("Both win the trophy");
-} else {
-  console.log("No winner 😢");
-}
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//   console.log("Dolphins win the trophy");
+// } else if (scoreKoalas > scoreDolphins && scoreDolphins >= 100) {
+//   console.log("Koalas win the trophy");
+// } else if (
+//   scoreDolphins === scoreKoalas &&
+//   scoreDolphins >= 100 &&
+//   scoreKoalas >= 100
+// ) {
+//   console.log("Both win the trophy");
+// } else {
+//   console.log("No winner 😢");
+// }
+
+//The switch statement
+
+// const day = "sunday";
+// switch (day) {
+//   case "monday":
+//     console.log("plan your day");
+//     console.log("Go to meeting");
+//     break;
+//   case "tuesday":
+//     console.log("welcome to tuesday");
+//     break;
+//   case "wednesday":
+//     console.log("almost there");
+//     break;
+//   default:
+//     console.log("Not a day");
+// }
+
+// statements and expressions
