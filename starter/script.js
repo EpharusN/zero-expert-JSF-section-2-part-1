@@ -125,3 +125,9 @@ if (age >= 18) {
   const yearsLeft = 18 - age;
   console.log(`Sarah is not of age. Wait another ${yearsLeft} years 😢`);
 }
+
+if (BMIMark > BMIJohn) {
+  console.log("Mark's BMI is higher than John's BMI");
+} else {
+  console.log("John's BMI is higher than mark's BMI");
+}
