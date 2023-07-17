@@ -255,3 +255,36 @@ job = "teacher";
 // }
 
 // statements and expressions
+//  expressions provide a value
+//  example
+//  3 + 4 = 7
+//  true
+//  false
+//  1991
+
+//  statements eg else if etc
+
+//ternary operator
+
+// const age = 10;
+// // age >= 15 ? console.log("Go out 🎉") : console.log("I like staying indoors");
+
+// const drink = age >= 18 ? "wine 💋" : "milk 🥛";
+// console.log(drink);
+
+// //Challenge 4
+
+//amount spent = 275,40, 430
+
+//const bill = 430
+//tip = (430*100)/20
+
+// tip = 15% (50 = 300)
+// 20% over 300 meaning 301+
+
+const bill = 275;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+
+console.log(
+  `The bill was ${bill} the tip was ${tip}, and the total value ${bill + tip}`
+);
